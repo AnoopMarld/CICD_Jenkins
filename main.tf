@@ -13,6 +13,6 @@ terraform {
 }
 
 resource "google_compute_network" "exampleakm_vpc" {
-  name                    = "example-vpc"
+  name                    = "exampleakm-vpc"
   auto_create_subnetworks = true 
 }
